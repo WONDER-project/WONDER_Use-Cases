@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <scheme description="" title="LaB6 - 11BM" version="2.0" working_directory="/Users/lrebuffi/Documents/Workspace/Wonder/WONDER_Use-Cases/LaB6_11bm" workspace_units="2">
 	<nodes>
-		<node id="0" name="Load Diffraction Pattern" position="(109.0, 68.0)" project_name="OASYS1-WONDER" qualified_name="orangecontrib.wonder.widgets.wonder.ow_diffraction_pattern.OWDiffractionPattern" title="Load Diffraction Pattern" version="" />
-		<node id="1" name="Incident Radiation" position="(234.0, 68.0)" project_name="OASYS1-WONDER" qualified_name="orangecontrib.wonder.widgets.wonder.ow_radiation.OWRadiation" title="Incident Radiation" version="" />
-		<node id="2" name="FFT Parameters" position="(350.0, 68.0)" project_name="OASYS1-WONDER" qualified_name="orangecontrib.wonder.widgets.wonder.ow_fft_parameters.OWFFTParameters" title="FFT Parameters" version="" />
-		<node id="3" name="Phases" position="(463.0, 68.0)" project_name="OASYS1-WONDER" qualified_name="orangecontrib.wonder.widgets.wonder.ow_phases.OWPhases" title="Phases" version="" />
-		<node id="4" name="Line Profile" position="(578.0, 69.0)" project_name="OASYS1-WONDER" qualified_name="orangecontrib.wonder.widgets.wonder.ow_line_profile.OWLineProfile" title="Line Profile" version="" />
+		<node id="0" name="Load Diffraction Pattern" position="(49.0, 63.0)" project_name="OASYS1-WONDER" qualified_name="orangecontrib.wonder.widgets.wonder.ow_diffraction_pattern.OWDiffractionPattern" title="Load Diffraction Pattern" version="" />
+		<node id="1" name="Incident Radiation" position="(254.0, 56.0)" project_name="OASYS1-WONDER" qualified_name="orangecontrib.wonder.widgets.wonder.ow_radiation.OWRadiation" title="Incident Radiation" version="" />
+		<node id="2" name="FFT Parameters" position="(367.0, 60.0)" project_name="OASYS1-WONDER" qualified_name="orangecontrib.wonder.widgets.wonder.ow_fft_parameters.OWFFTParameters" title="FFT Parameters" version="" />
+		<node id="3" name="Phases" position="(472.0, 59.0)" project_name="OASYS1-WONDER" qualified_name="orangecontrib.wonder.widgets.wonder.ow_phases.OWPhases" title="Phases" version="" />
+		<node id="4" name="Line Profile" position="(579.0, 59.0)" project_name="OASYS1-WONDER" qualified_name="orangecontrib.wonder.widgets.wonder.ow_line_profile.OWLineProfile" title="Line Profile" version="" />
 		<node id="5" name="Chebyshev Background" position="(688.0, 68.0)" project_name="OASYS1-WONDER" qualified_name="orangecontrib.wonder.widgets.wonder.ow_chebyshev_background.OWChebyshevBackground" title="Chebyshev Background" version="" />
 		<node id="6" name="Calibration Peak Shift" position="(157.0, 210.0)" project_name="OASYS1-WONDER" qualified_name="orangecontrib.wonder.widgets.wonder.ow_calibration_peak_shift.OWCalibrationPeakShift" title="Calibration Peak Shift" version="" />
 		<node id="7" name="Fitter" position="(326.0, 232.0)" project_name="OASYS1-WONDER" qualified_name="orangecontrib.wonder.widgets.wonder.ow_fitter.OWFitter" title="Fitter" version="" />
@@ -13,18 +13,20 @@
 		<node id="9" name="Fitter" position="(595.0, 324.0)" project_name="OASYS1-WONDER" qualified_name="orangecontrib.wonder.widgets.wonder.ow_fitter.OWFitter" title="Fitter" version="" />
 		<node id="10" name="Calibration Peak Shift" position="(129.0, 432.0)" project_name="OASYS1-WONDER" qualified_name="orangecontrib.wonder.widgets.wonder.ow_calibration_peak_shift.OWCalibrationPeakShift" title="Calibration Peak Shift (Final)" version="" />
 		<node id="11" name="Instrumental Profile" position="(254.0, 432.0)" project_name="OASYS1-WONDER" qualified_name="orangecontrib.wonder.widgets.wonder.ow_instrumental_profile.OWInstrumentalProfile" title="Instrumental Profile (Final)" version="" />
+		<node id="12" name="Decrease Number of Points" position="(153.0, 108.0)" project_name="OASYS1-WONDER" qualified_name="orangecontrib.wonder.widgets.wonder.ow_decrease_points.OWDecreasePoints" title="Decrease Number of Points" version="" />
 	</nodes>
 	<links>
-		<link enabled="true" id="0" sink_channel="Fit Global Parameters" sink_node_id="1" source_channel="Fit Global Parameters" source_node_id="0" />
-		<link enabled="true" id="1" sink_channel="Fit Global Parameters" sink_node_id="2" source_channel="Fit Global Parameters" source_node_id="1" />
-		<link enabled="true" id="2" sink_channel="Fit Global Parameters" sink_node_id="3" source_channel="Fit Global Parameters" source_node_id="2" />
-		<link enabled="true" id="3" sink_channel="Fit Global Parameters" sink_node_id="4" source_channel="Fit Global Parameters" source_node_id="3" />
-		<link enabled="true" id="4" sink_channel="Fit Global Parameters" sink_node_id="5" source_channel="Fit Global Parameters" source_node_id="4" />
-		<link enabled="true" id="5" sink_channel="Fit Global Parameters" sink_node_id="6" source_channel="Fit Global Parameters" source_node_id="5" />
-		<link enabled="true" id="6" sink_channel="Fit Global Parameters" sink_node_id="7" source_channel="Fit Global Parameters" source_node_id="6" />
-		<link enabled="true" id="7" sink_channel="Fit Global Parameters" sink_node_id="8" source_channel="Fit Global Parameters" source_node_id="7" />
-		<link enabled="true" id="8" sink_channel="Fit Global Parameters" sink_node_id="9" source_channel="Fit Global Parameters" source_node_id="8" />
-		<link enabled="true" id="9" sink_channel="Fit Global Parameters" sink_node_id="11" source_channel="Fit Global Parameters" source_node_id="10" />
+		<link enabled="true" id="0" sink_channel="Fit Global Parameters" sink_node_id="2" source_channel="Fit Global Parameters" source_node_id="1" />
+		<link enabled="true" id="1" sink_channel="Fit Global Parameters" sink_node_id="3" source_channel="Fit Global Parameters" source_node_id="2" />
+		<link enabled="true" id="2" sink_channel="Fit Global Parameters" sink_node_id="4" source_channel="Fit Global Parameters" source_node_id="3" />
+		<link enabled="true" id="3" sink_channel="Fit Global Parameters" sink_node_id="5" source_channel="Fit Global Parameters" source_node_id="4" />
+		<link enabled="true" id="4" sink_channel="Fit Global Parameters" sink_node_id="6" source_channel="Fit Global Parameters" source_node_id="5" />
+		<link enabled="true" id="5" sink_channel="Fit Global Parameters" sink_node_id="7" source_channel="Fit Global Parameters" source_node_id="6" />
+		<link enabled="true" id="6" sink_channel="Fit Global Parameters" sink_node_id="8" source_channel="Fit Global Parameters" source_node_id="7" />
+		<link enabled="true" id="7" sink_channel="Fit Global Parameters" sink_node_id="9" source_channel="Fit Global Parameters" source_node_id="8" />
+		<link enabled="true" id="8" sink_channel="Fit Global Parameters" sink_node_id="11" source_channel="Fit Global Parameters" source_node_id="10" />
+		<link enabled="true" id="9" sink_channel="Fit Global Parameters" sink_node_id="12" source_channel="Fit Global Parameters" source_node_id="0" />
+		<link enabled="true" id="10" sink_channel="Fit Global Parameters" sink_node_id="1" source_channel="Fit Global Parameters" source_node_id="0" />
 	</links>
 	<annotations />
 	<thumbnail />
@@ -111,36 +113,52 @@ NUsAYXUu
 </properties>
 		<properties format="pickle" node_id="4">gAN9cQAoWBAAAABpc19hdXRvbWF0aWNfcnVucQGIWAsAAABsaW1pdF90eXBlc3ECXXEDXXEESwBh
 YVgGAAAAbGltaXRzcQVdcQZdcQdHQEsAAAAAAABhYVgVAAAAcmVmbGVjdGlvbnNfb2ZfcGhhc2Vz
-cQhdcQldcQpY6AUAADEsIDAsIDAsIEkxMDAgMTAwMCwgbWluIDAuMAoxLCAxLCAwLCBJMTEwIDEw
-MDAsIG1pbiAwLjAKMSwgMSwgMSwgSTExMSAxMDAwLCBtaW4gMC4wCjIsIDAsIDAsIEkyMDAgMTAw
-MCwgbWluIDAuMAoyLCAxLCAwLCBJMjEwIDEwMDAsIG1pbiAwLjAKMiwgMSwgMSwgSTIxMSAxMDAw
-LCBtaW4gMC4wCjIsIDIsIDAsIEkyMjAgMTAwMCwgbWluIDAuMAozLCAwLCAwLCBJMzAwIDEwMDAs
-IG1pbiAwLjAKMiwgMiwgMSwgSTIyMSAxMDAwLCBtaW4gMC4wCjMsIDEsIDAsIEkzMTAgMTAwMCwg
-bWluIDAuMAozLCAxLCAxLCBJMzExIDEwMDAsIG1pbiAwLjAKMiwgMiwgMiwgSTIyMiAxMDAwLCBt
-aW4gMC4wCjMsIDIsIDAsIEkzMjAgMTAwMCwgbWluIDAuMAozLCAyLCAxLCBJMzIxIDEwMDAsIG1p
-biAwLjAKNCwgMCwgMCwgSTQwMCAxMDAwLCBtaW4gMC4wCjQsIDEsIDAsIEk0MTAgMTAwMCwgbWlu
-IDAuMAozLCAyLCAyLCBJMzIyIDEwMDAsIG1pbiAwLjAKMywgMywgMCwgSTMzMCAxMDAwLCBtaW4g
-MC4wCjQsIDEsIDEsIEk0MTEgMTAwMCwgbWluIDAuMAozLCAzLCAxLCBJMzMxIDEwMDAsIG1pbiAw
-LjAKNCwgMiwgMCwgSTQyMCAxMDAwLCBtaW4gMC4wCjQsIDIsIDEsIEk0MjEgMTAwMCwgbWluIDAu
-MAozLCAzLCAyLCBJMzMyIDEwMDAsIG1pbiAwLjAKNCwgMiwgMiwgSTQyMiAxMDAwLCBtaW4gMC4w
-CjUsIDAsIDAsIEk1MDAgMTAwMCwgbWluIDAuMAo0LCAzLCAwLCBJNDMwIDEwMDAsIG1pbiAwLjAK
-NSwgMSwgMCwgSTUxMCAxMDAwLCBtaW4gMC4wCjQsIDMsIDEsIEk0MzEgMTAwMCwgbWluIDAuMAo1
-LCAxLCAxLCBJNTExIDEwMDAsIG1pbiAwLjAKMywgMywgMywgSTMzMyAxMDAwLCBtaW4gMC4wCjUs
-IDIsIDAsIEk1MjAgMTAwMCwgbWluIDAuMAo0LCAzLCAyLCBJNDMyIDEwMDAsIG1pbiAwLjAKNSwg
-MiwgMSwgSTUyMSAxMDAwLCBtaW4gMC4wCjQsIDQsIDAsIEk0NDAgMTAwMCwgbWluIDAuMAo0LCA0
-LCAxLCBJNDQxIDEwMDAsIG1pbiAwLjAKNSwgMiwgMiwgSTUyMiAxMDAwLCBtaW4gMC4wCjUsIDMs
-IDAsIEk1MzAgMTAwMCwgbWluIDAuMAo0LCAzLCAzLCBJNDMzIDEwMDAsIG1pbiAwLjAKNSwgMywg
-MSwgSTUzMSAxMDAwLCBtaW4gMC4wCjYsIDAsIDAsIEk2MDAgMTAwMCwgbWluIDAuMAo0LCA0LCAy
-LCBJNDQyIDEwMDAsIG1pbiAwLjAKNiwgMSwgMCwgSTYxMCAxMDAwLCBtaW4gMC4wCjYsIDEsIDEs
-IEk2MTEgMTAwMCwgbWluIDAuMAo1LCAzLCAyLCBJNTMyIDEwMDAsIG1pbiAwLjAKNiwgMiwgMCwg
-STYyMCAxMDAwLCBtaW4gMC4wCjUsIDQsIDAsIEk1NDAgMTAwMCwgbWluIDAuMAo2LCAyLCAxLCBJ
-NjIxIDEwMDAsIG1pbiAwLjAKNCwgNCwgMywgSTQ0MyAxMDAwLCBtaW4gMC4wCjUsIDQsIDEsIEk1
-NDEgMTAwMCwgbWluIDAuMAo1LCAzLCAzLCBJNTMzIDEwMDAsIG1pbiAwLjAKNiwgMiwgMiwgSTYy
-MiAxMDAwLCBtaW4gMC4wCjYsIDMsIDAsIEk2MzAgMTAwMCwgbWluIDAuMAo1LCA0LCAyLCBJNTQy
-IDEwMDAsIG1pbiAwLjAKNiwgMywgMSwgSTYzMSAxMDAwLCBtaW4gMC4wCnELYWFYEwAAAHNhdmVk
-V2lkZ2V0R2VvbWV0cnlxDGNzaXAKX3VucGlja2xlX3R5cGUKcQ1YDAAAAFB5UXQ1LlF0Q29yZXEO
-WAoAAABRQnl0ZUFycmF5cQ9DQgHZ0MsAAwAAAAAAKQAAABcAAAKPAAAC6AAAACkAAAAtAAACjwAA
-AugAAAAAAgAAAA/wAAAAKQAAAC0AAAKPAAAC6HEQhXERh3ESUnETdS4=
+cQhdcQldcQpYfgkAADEsIDAsIDAsIHJlZmxlY3Rpb25fMV8xX0kxMDAgMTAwMC4wLCBtaW4gMC4w
+CjEsIDEsIDAsIHJlZmxlY3Rpb25fMV8xX0kxMTAgMTAwMC4wLCBtaW4gMC4wCjEsIDEsIDEsIHJl
+ZmxlY3Rpb25fMV8xX0kxMTEgMTAwMC4wLCBtaW4gMC4wCjIsIDAsIDAsIHJlZmxlY3Rpb25fMV8x
+X0kyMDAgMTAwMC4wLCBtaW4gMC4wCjIsIDEsIDAsIHJlZmxlY3Rpb25fMV8xX0kyMTAgMTAwMC4w
+LCBtaW4gMC4wCjIsIDEsIDEsIHJlZmxlY3Rpb25fMV8xX0kyMTEgMTAwMC4wLCBtaW4gMC4wCjIs
+IDIsIDAsIHJlZmxlY3Rpb25fMV8xX0kyMjAgMTAwMC4wLCBtaW4gMC4wCjMsIDAsIDAsIHJlZmxl
+Y3Rpb25fMV8xX0kzMDAgMTAwMC4wLCBtaW4gMC4wCjIsIDIsIDEsIHJlZmxlY3Rpb25fMV8xX0ky
+MjEgMTAwMC4wLCBtaW4gMC4wCjMsIDEsIDAsIHJlZmxlY3Rpb25fMV8xX0kzMTAgMTAwMC4wLCBt
+aW4gMC4wCjMsIDEsIDEsIHJlZmxlY3Rpb25fMV8xX0kzMTEgMTAwMC4wLCBtaW4gMC4wCjIsIDIs
+IDIsIHJlZmxlY3Rpb25fMV8xX0kyMjIgMTAwMC4wLCBtaW4gMC4wCjMsIDIsIDAsIHJlZmxlY3Rp
+b25fMV8xX0kzMjAgMTAwMC4wLCBtaW4gMC4wCjMsIDIsIDEsIHJlZmxlY3Rpb25fMV8xX0kzMjEg
+MTAwMC4wLCBtaW4gMC4wCjQsIDAsIDAsIHJlZmxlY3Rpb25fMV8xX0k0MDAgMTAwMC4wLCBtaW4g
+MC4wCjQsIDEsIDAsIHJlZmxlY3Rpb25fMV8xX0k0MTAgMTAwMC4wLCBtaW4gMC4wCjMsIDIsIDIs
+IHJlZmxlY3Rpb25fMV8xX0kzMjIgMTAwMC4wLCBtaW4gMC4wCjMsIDMsIDAsIHJlZmxlY3Rpb25f
+MV8xX0kzMzAgMTAwMC4wLCBtaW4gMC4wCjQsIDEsIDEsIHJlZmxlY3Rpb25fMV8xX0k0MTEgMTAw
+MC4wLCBtaW4gMC4wCjMsIDMsIDEsIHJlZmxlY3Rpb25fMV8xX0kzMzEgMTAwMC4wLCBtaW4gMC4w
+CjQsIDIsIDAsIHJlZmxlY3Rpb25fMV8xX0k0MjAgMTAwMC4wLCBtaW4gMC4wCjQsIDIsIDEsIHJl
+ZmxlY3Rpb25fMV8xX0k0MjEgMTAwMC4wLCBtaW4gMC4wCjMsIDMsIDIsIHJlZmxlY3Rpb25fMV8x
+X0kzMzIgMTAwMC4wLCBtaW4gMC4wCjQsIDIsIDIsIHJlZmxlY3Rpb25fMV8xX0k0MjIgMTAwMC4w
+LCBtaW4gMC4wCjUsIDAsIDAsIHJlZmxlY3Rpb25fMV8xX0k1MDAgMTAwMC4wLCBtaW4gMC4wCjQs
+IDMsIDAsIHJlZmxlY3Rpb25fMV8xX0k0MzAgMTAwMC4wLCBtaW4gMC4wCjUsIDEsIDAsIHJlZmxl
+Y3Rpb25fMV8xX0k1MTAgMTAwMC4wLCBtaW4gMC4wCjQsIDMsIDEsIHJlZmxlY3Rpb25fMV8xX0k0
+MzEgMTAwMC4wLCBtaW4gMC4wCjUsIDEsIDEsIHJlZmxlY3Rpb25fMV8xX0k1MTEgMTAwMC4wLCBt
+aW4gMC4wCjMsIDMsIDMsIHJlZmxlY3Rpb25fMV8xX0kzMzMgMTAwMC4wLCBtaW4gMC4wCjUsIDIs
+IDAsIHJlZmxlY3Rpb25fMV8xX0k1MjAgMTAwMC4wLCBtaW4gMC4wCjQsIDMsIDIsIHJlZmxlY3Rp
+b25fMV8xX0k0MzIgMTAwMC4wLCBtaW4gMC4wCjUsIDIsIDEsIHJlZmxlY3Rpb25fMV8xX0k1MjEg
+MTAwMC4wLCBtaW4gMC4wCjQsIDQsIDAsIHJlZmxlY3Rpb25fMV8xX0k0NDAgMTAwMC4wLCBtaW4g
+MC4wCjQsIDQsIDEsIHJlZmxlY3Rpb25fMV8xX0k0NDEgMTAwMC4wLCBtaW4gMC4wCjUsIDIsIDIs
+IHJlZmxlY3Rpb25fMV8xX0k1MjIgMTAwMC4wLCBtaW4gMC4wCjUsIDMsIDAsIHJlZmxlY3Rpb25f
+MV8xX0k1MzAgMTAwMC4wLCBtaW4gMC4wCjQsIDMsIDMsIHJlZmxlY3Rpb25fMV8xX0k0MzMgMTAw
+MC4wLCBtaW4gMC4wCjUsIDMsIDEsIHJlZmxlY3Rpb25fMV8xX0k1MzEgMTAwMC4wLCBtaW4gMC4w
+CjYsIDAsIDAsIHJlZmxlY3Rpb25fMV8xX0k2MDAgMTAwMC4wLCBtaW4gMC4wCjQsIDQsIDIsIHJl
+ZmxlY3Rpb25fMV8xX0k0NDIgMTAwMC4wLCBtaW4gMC4wCjYsIDEsIDAsIHJlZmxlY3Rpb25fMV8x
+X0k2MTAgMTAwMC4wLCBtaW4gMC4wCjYsIDEsIDEsIHJlZmxlY3Rpb25fMV8xX0k2MTEgMTAwMC4w
+LCBtaW4gMC4wCjUsIDMsIDIsIHJlZmxlY3Rpb25fMV8xX0k1MzIgMTAwMC4wLCBtaW4gMC4wCjYs
+IDIsIDAsIHJlZmxlY3Rpb25fMV8xX0k2MjAgMTAwMC4wLCBtaW4gMC4wCjUsIDQsIDAsIHJlZmxl
+Y3Rpb25fMV8xX0k1NDAgMTAwMC4wLCBtaW4gMC4wCjYsIDIsIDEsIHJlZmxlY3Rpb25fMV8xX0k2
+MjEgMTAwMC4wLCBtaW4gMC4wCjQsIDQsIDMsIHJlZmxlY3Rpb25fMV8xX0k0NDMgMTAwMC4wLCBt
+aW4gMC4wCjUsIDQsIDEsIHJlZmxlY3Rpb25fMV8xX0k1NDEgMTAwMC4wLCBtaW4gMC4wCjUsIDMs
+IDMsIHJlZmxlY3Rpb25fMV8xX0k1MzMgMTAwMC4wLCBtaW4gMC4wCjYsIDIsIDIsIHJlZmxlY3Rp
+b25fMV8xX0k2MjIgMTAwMC4wLCBtaW4gMC4wCjYsIDMsIDAsIHJlZmxlY3Rpb25fMV8xX0k2MzAg
+MTAwMC4wLCBtaW4gMC4wCjUsIDQsIDIsIHJlZmxlY3Rpb25fMV8xX0k1NDIgMTAwMC4wLCBtaW4g
+MC4wCjYsIDMsIDEsIHJlZmxlY3Rpb25fMV8xX0k2MzEgMTAwMC4wLCBtaW4gMC4wCnELYWFYEwAA
+AHNhdmVkV2lkZ2V0R2VvbWV0cnlxDGNzaXAKX3VucGlja2xlX3R5cGUKcQ1YDAAAAFB5UXQ1LlF0
+Q29yZXEOWAoAAABRQnl0ZUFycmF5cQ9DQgHZ0MsAAwAAAAAAKQAAABcAAAKPAAAC6AAAACkAAAAt
+AAACjwAAAugAAAAAAgAAAA/wAAAAKQAAAC0AAAKPAAAC6HEQhXERh3ESUnETdS4=
 </properties>
 		<properties format="pickle" node_id="5">gAN9cQAoWAIAAABjMHEBXXECRwAAAAAAAAAAYVgIAAAAYzBfZml4ZWRxA11xBEsAYVgLAAAAYzBf
 ZnVuY3Rpb25xBV1xBksAYVgRAAAAYzBfZnVuY3Rpb25fdmFsdWVxB11xCFgAAAAAcQlhWAoAAABj
@@ -311,6 +329,12 @@ YXRpY19ydW5xYohYEwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlxY2NzaXAKX3VucGlja2xlX3R5cGUK
 cWRYDAAAAFB5UXQ1LlF0Q29yZXFlWAoAAABRQnl0ZUFycmF5cWZDQgHZ0MsAAwAAAAADtAAAAEgA
 AAYaAAACgwAAACkAAAAtAAACjwAAAlIAAAAAAgAAAA/wAAADtAAAAF4AAAYaAAACg3FnhXFoh3Fp
 UnFqWBgAAAB1c2Vfc2luZ2xlX3BhcmFtZXRlcl9zZXRxa0sAdS4=
+</properties>
+		<properties format="pickle" node_id="12">gAN9cQAoWBAAAABpc19hdXRvbWF0aWNfcnVucQGIWBAAAAByZWR1Y3Rpb25fZmFjdG9ycQJdcQNL
+BWFYEwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlxBGNzaXAKX3VucGlja2xlX3R5cGUKcQVYDAAAAFB5
+UXQ1LlF0Q29yZXEGWAoAAABRQnl0ZUFycmF5cQdDQgHZ0MsAAwAAAAAAKQAAABcAAAKPAAABYgAA
+ACkAAAAtAAACjwAAAWIAAAAAAgAAAA/wAAAAKQAAAC0AAAKPAAABYnEIhXEJh3EKUnELWBgAAAB1
+c2Vfc2luZ2xlX3BhcmFtZXRlcl9zZXRxDEsAdS4=
 </properties>
 	</node_properties>
 </scheme>
