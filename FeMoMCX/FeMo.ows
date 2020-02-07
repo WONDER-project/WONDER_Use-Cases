@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheme description="FeMo from MCX Beamline" title="FeMo Giara 4 Batch B" version="2.0" working_directory="/Users/lrebuffi/Documents/Workspace/Wonder/OASYS1-WONDER/Use_Cases/FeMoMCX" workspace_units="2">
+<scheme description="FeMo from MCX Beamline" title="FeMo Giara 4 Batch B" version="2.0" working_directory="/Users/lrebuffi/Documents/Workspace/Wonder/WONDER_Use-Cases/FeMoMCX" workspace_units="2">
 	<nodes>
 		<node id="0" name="FFT Parameters" position="(157.0, -23.0)" project_name="OASYS1-WONDER" qualified_name="orangecontrib.wonder.widgets.wonder.ow_fft_parameters.OWFFTParameters" title="FFT Parameters" version="" />
 		<node id="1" name="Chebyshev Background" position="(89.0, 162.0)" project_name="OASYS1-WONDER" qualified_name="orangecontrib.wonder.widgets.wonder.ow_chebyshev_background.OWChebyshevBackground" title="Chebyshev Background" version="" />
@@ -69,8 +69,8 @@
 		<properties format="pickle" node_id="0">gAN9cQAoWAgAAABmZnRfdHlwZXEBSwBYEAAAAGlzX2F1dG9tYXRpY19ydW5xAohYBgAAAG5fc3Rl
 cHEDWAQAAAA4MTkycQRYBQAAAHNfbWF4cQVHQAAAAAAAAABYEwAAAHNhdmVkV2lkZ2V0R2VvbWV0
 cnlxBmNzaXAKX3VucGlja2xlX3R5cGUKcQdYDAAAAFB5UXQ1LlF0Q29yZXEIWAoAAABRQnl0ZUFy
-cmF5cQlDQgHZ0MsAAwAAAAAAKQAAABcAAAIrAAAC6AAAACkAAAAtAAACKwAAAugAAAAAAgAAAA/w
-AAAAKQAAAC0AAAIrAAAC6HEKhXELh3EMUnENdS4=
+cmF5cQlDQgHZ0MsAAwAAAAAAKQAAABcAAAKPAAABYgAAACkAAAAtAAACKwAAAugAAAAAAgAAAA/w
+AAAAKQAAAC0AAAKPAAABYnEKhXELh3EMUnENdS4=
 </properties>
 		<properties format="literal" node_id="1">{'c0': [0.0], 'c0_fixed': [0], 'c0_function': [0], 'c0_function_value': [''], 'c0_has_max': [0], 'c0_has_min': [0], 'c0_max': [0.0], 'c0_min': [0.0], 'c1': [0.0], 'c1_fixed': [0], 'c1_function': [0], 'c1_function_value': [''], 'c1_has_max': [0], 'c1_has_min': [0], 'c1_max': [0.0], 'c1_min': [0.0], 'c2': [0.0], 'c2_fixed': [0], 'c2_function': [0], 'c2_function_value': [''], 'c2_has_max': [0], 'c2_has_min': [0], 'c2_max': [0.0], 'c2_min': [0.0], 'c3': [0.0], 'c3_fixed': [0], 'c3_function': [0], 'c3_function_value': [''], 'c3_has_max': [0], 'c3_has_min': [0], 'c3_max': [0.0], 'c3_min': [0.0], 'c4': [0.0], 'c4_fixed': [0], 'c4_function': [0], 'c4_function_value': [''], 'c4_has_max': [0], 'c4_has_min': [0], 'c4_max': [0.0], 'c4_min': [0.0], 'c5': [0.0], 'c5_fixed': [0], 'c5_function': [0], 'c5_function_value': [''], 'c5_has_max': [0], 'c5_has_min': [0], 'c5_max': [0.0], 'c5_min': [0.0], 'c6': [0.0], 'c6_fixed': [1], 'c6_function': [0], 'c6_function_value': [''], 'c6_has_max': [0], 'c6_has_min': [0], 'c6_max': [0.0], 'c6_min': [0.0], 'c7': [0.0], 'c7_fixed': [1], 'c7_function': [0], 'c7_function_value': [''], 'c7_has_max': [0], 'c7_has_min': [0], 'c7_max': [0.0], 'c7_min': [0.0], 'c8': [0.0], 'c8_fixed': [1], 'c8_function': [0], 'c8_function_value': [''], 'c8_has_max': [0], 'c8_has_min': [0], 'c8_max': [0.0], 'c8_min': [0.0], 'c9': [0.0], 'c9_fixed': [1], 'c9_function': [0], 'c9_function_value': [''], 'c9_has_max': [0], 'c9_has_min': [0], 'c9_max': [0.0], 'c9_min': [0.0], 'is_automatic_run': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x06\xf9\x00\x00\x00\x84\x00\x00\x08\xf6\x00\x00\x02y\x00\x00\x06\xf9\x00\x00\x00\x9a\x00\x00\x08\xf6\x00\x00\x02y\x00\x00\x00\x00\x00\x00\x00\x00\x0f\xf0\x00\x00\x06\xf9\x00\x00\x00\x9a\x00\x00\x08\xf6\x00\x00\x02y', 'use_single_parameter_set': 0}</properties>
 		<properties format="pickle" node_id="2">gAN9cQAoWAEAAABhcQFdcQJHP9JN0vGp++dhWAcAAABhX2ZpeGVkcQNdcQRLAGFYCgAAAGFfZnVu

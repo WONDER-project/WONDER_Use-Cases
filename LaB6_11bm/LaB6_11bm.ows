@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheme description="" title="LaB6 - 11BM" version="2.0" working_directory="/Users/lrebuffi/Documents/Workspace/Wonder/OASYS1-WONDER/Use_Cases/LaB6_11bm" workspace_units="2">
+<scheme description="" title="LaB6 - 11BM" version="2.0" working_directory="/Users/lrebuffi/Documents/Workspace/Wonder/WONDER_Use-Cases/LaB6_11bm" workspace_units="2">
 	<nodes>
 		<node id="0" name="Load Diffraction Pattern" position="(109.0, 68.0)" project_name="OASYS1-WONDER" qualified_name="orangecontrib.wonder.widgets.wonder.ow_diffraction_pattern.OWDiffractionPattern" title="Load Diffraction Pattern" version="" />
 		<node id="1" name="Incident Radiation" position="(234.0, 68.0)" project_name="OASYS1-WONDER" qualified_name="orangecontrib.wonder.widgets.wonder.ow_radiation.OWRadiation" title="Incident Radiation" version="" />

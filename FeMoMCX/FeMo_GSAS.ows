@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<scheme description="FeMo from MCX Beamline" title="FeMo Giara 4 Batch B - GSAS" version="2.0" working_directory="/Users/lrebuffi/Documents/Workspace/Wonder/OASYS1-WONDER/Use_Cases/FeMoMCX" workspace_units="2">
+<scheme description="FeMo from MCX Beamline" title="FeMo Giara 4 Batch B - GSAS" version="2.0" working_directory="/Users/lrebuffi/Documents/Workspace/Wonder/WONDER_Use-Cases/FeMoMCX" workspace_units="2">
 	<nodes>
 		<node id="0" name="FFT Parameters" position="(157.0, -23.0)" project_name="OASYS1-WONDER" qualified_name="orangecontrib.wonder.widgets.wonder.ow_fft_parameters.OWFFTParameters" title="FFT Parameters" version="" />
 		<node id="1" name="Chebyshev Background" position="(586.0, -23.0)" project_name="OASYS1-WONDER" qualified_name="orangecontrib.wonder.widgets.wonder.ow_chebyshev_background.OWChebyshevBackground" title="Chebyshev Background" version="" />
@@ -314,8 +314,8 @@ bWF4cR1dcR5HQGLAAAAAAABhWAkAAABsYWI2X3htaW5xH11xIEcAAAAAAAAAAGFYCQAAAGxhYjZf
 eW1heHEhXXEiRz/wAAAAAAAAYVgJAAAAbGFiNl95bWlucSNdcSRHv/AAAAAAAABhWAwAAABuX2l0
 ZXJhdGlvbnNxJUsKWA4AAABzYXZlX2ZpbGVfbmFtZXEmWA4AAABmaXRfb3V0cHV0LmRhdHEnWBMA
 AABzYXZlZFdpZGdldEdlb21ldHJ5cShjc2lwCl91bnBpY2tsZV90eXBlCnEpWAwAAABQeVF0NS5R
-dENvcmVxKlgKAAAAUUJ5dGVBcnJheXErQ0IB2dDLAAMAAAAABdsAAAAiAAALAgAAAvMAAAXaAAAA
-PwAACwEAAAL6AAAAAAIAAAAP8AAABdsAAAA4AAALAgAAAvNxLIVxLYdxLlJxL1gVAAAAc2hvd19p
+dENvcmVxKlgKAAAAUUJ5dGVBcnJheXErQ0IB2dDLAAMAAAAABdoAAAApAAALAQAAAvoAAAXaAAAA
+PwAACwEAAAL6AAAAAAIAAAAP8AAABdoAAAA/AAALAQAAAvpxLIVxLYdxLlJxL1gVAAAAc2hvd19p
 bnRlZ3JhbF9icmVhZHRocTBLAVgIAAAAc2hvd19pcGZxMUsAWAoAAABzaG93X3NoaWZ0cTJLAFgJ
 AAAAc2hvd19zaXplcTNLAVgLAAAAc2hvd193YXJyZW5xNEsBWAwAAABzaG93X3dzc19nb2ZxNUsB
 dS4=
@@ -330,10 +330,10 @@ AAAAAGFYCQAAAGZ3aG1feW1heHEUXXEVRz+uuFHrhR64YVgJAAAAZndobV95bWlucRZdcRdHP6R6
 AGlzX2ludGVyYWN0aXZlcRpLAVgOAAAAbGFiNl9hdXRvc2NhbGVxG11xHEsBYVgJAAAAbGFiNl94
 bWF4cR1dcR5HQGLAAAAAAABhWAkAAABsYWI2X3htaW5xH11xIEcAAAAAAAAAAGFYCQAAAGxhYjZf
 eW1heHEhXXEiRz/wAAAAAAAAYVgJAAAAbGFiNl95bWlucSNdcSRHv/AAAAAAAABhWAwAAABuX2l0
-ZXJhdGlvbnNxJUsKWA4AAABzYXZlX2ZpbGVfbmFtZXEmWA4AAABmaXRfb3V0cHV0LmRhdHEnWBMA
+ZXJhdGlvbnNxJUsFWA4AAABzYXZlX2ZpbGVfbmFtZXEmWA4AAABmaXRfb3V0cHV0LmRhdHEnWBMA
 AABzYXZlZFdpZGdldEdlb21ldHJ5cShjc2lwCl91bnBpY2tsZV90eXBlCnEpWAwAAABQeVF0NS5R
-dENvcmVxKlgKAAAAUUJ5dGVBcnJheXErQ0IB2dDLAAMAAAAABqUAAAAXAAALzAAAAugAAAfTAAAA
-OAAADPoAAALzAAAAAAIAAAAP8AAABqUAAAAtAAALzAAAAuhxLIVxLYdxLlJxL1gVAAAAc2hvd19p
+dENvcmVxKlgKAAAAUUJ5dGVBcnJheXErQ0IB2dDLAAMAAAAAB9MAAAAiAAAM+gAAAvMAAAfTAAAA
+OAAADPoAAALzAAAAAAIAAAAP8AAAB9MAAAA4AAAM+gAAAvNxLIVxLYdxLlJxL1gVAAAAc2hvd19p
 bnRlZ3JhbF9icmVhZHRocTBLAFgIAAAAc2hvd19pcGZxMUsAWAoAAABzaG93X3NoaWZ0cTJLAFgJ
 AAAAc2hvd19zaXplcTNLAVgLAAAAc2hvd193YXJyZW5xNEsAWAwAAABzaG93X3dzc19nb2ZxNUsB
 dS4=
